@@ -5,7 +5,7 @@ BEGIN
 
   # 変数の宣言 #
   INT a, b, sum;
-  INT n;
+  INT i, n;
 
   print (("Hello, World!", new line));
 
@@ -31,5 +31,12 @@ BEGIN
   ELSE
     print (("an odd number", new line));
   FI;
+
+  # 入力された数だけループ #
+  i := 0;
+  WHILE i := i + 1; n >= i
+    DO print ((i, new line))
+  OD
+  
 
 END
