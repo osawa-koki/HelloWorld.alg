@@ -1,6 +1,9 @@
 # HelloWorld.alg
 
 🐁🐁🐁 ALGOL68でHelloWorldを表示するプログラムです。  
+その他の簡単な処理も実装しています。  
+
+Docker上で動作させています。  
 
 ## 実行方法
 
