@@ -1,4 +1,5 @@
 BEGIN
+  # コメントアウト #
   INT a, b, sum;
 
   a := 10;
