@@ -10,7 +10,9 @@ BEGIN
   sum := a + b;
   print ((a, " + ", b, " = ", sum, new line));
 
+  # 書式化文字列 #
   printf (($7a$, "Algol68"));
+  
   print (("Step ", " yields ", new line))
 
 END
