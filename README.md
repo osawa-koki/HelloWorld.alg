@@ -1,6 +1,6 @@
 # HelloWorld.alg
 
-ALGOL68でHelloWorldを表示するプログラムです。  
+🐁🐁🐁 ALGOL68でHelloWorldを表示するプログラムです。  
 
 ## 実行方法
 
