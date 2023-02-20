@@ -1,6 +1,7 @@
 BEGIN
   # コメントアウト #
   INT a, b, sum;
+  INT n;
 
   print (("Hello, World!", new line));
 
@@ -12,7 +13,11 @@ BEGIN
 
   # 書式化文字列 #
   printf (($7a$, "Algol68"));
-  
-  print (("Step ", " yields ", new line))
+  print ((new line));
+
+  # 入力の受け取り #
+  print (("Enter a number -> "));
+  n := read int;
+  print (("Entered -> ", n, new line));
 
 END
