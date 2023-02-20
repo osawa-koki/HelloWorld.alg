@@ -1,10 +1,11 @@
-DEFINITION MODULE MyProgram
-  #INCLUDE "Standard"
+BEGIN
+  INT a, b, sum;
 
-  BEGIN
-    INTEGER a, b, sum;
-    a := 10;
-    b := 20;
-    sum := a + b;
-    printf(("The sum of %d and %d is %d"), a, b, sum);
-  END
+  a := 10;
+  b := 20;
+  sum := a + b;
+
+  printf (($7a$, "Algol68"));
+  print (("Step ", " yields ", new line))
+
+END
