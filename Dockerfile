@@ -11,3 +11,5 @@ WORKDIR /usr/local/${compiler}-${version}
 RUN ./configure && make
 
 WORKDIR /app
+COPY ./app ./
+CMD [ "a68g", "./main.alg" ]
