@@ -27,9 +27,9 @@ BEGIN
   # 入力された値が偶数か奇数か判定 #
   print ((n, " is "));
   IF n MOD 2 = 0 THEN
-    print (("an even number.", new line));
+    print (("an even number.", new line))
   ELSE
-    print (("an odd number.", new line));
+    print (("an odd number.", new line))
   FI;
 
   # 入力された数だけループ #
@@ -37,5 +37,5 @@ BEGIN
   WHILE i := i + 1; n >= i
     DO print ((i, new line))
   OD
-  
+
 END
