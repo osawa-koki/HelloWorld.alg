@@ -7,6 +7,7 @@ BEGIN
   a := 10;
   b := 20;
   sum := a + b;
+  print ((a, " + ", b, " = ", sum, new line));
 
   printf (($7a$, "Algol68"));
   print (("Step ", " yields ", new line))
