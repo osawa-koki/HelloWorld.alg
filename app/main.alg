@@ -38,5 +38,4 @@ BEGIN
     DO print ((i, new line))
   OD
   
-
 END
