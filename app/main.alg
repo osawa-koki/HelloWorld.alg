@@ -1,5 +1,8 @@
 BEGIN
+
   # コメントアウト #
+
+  # 変数の宣言 #
   INT a, b, sum;
   INT n;
 
