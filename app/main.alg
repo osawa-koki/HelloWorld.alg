@@ -2,6 +2,8 @@ BEGIN
   # コメントアウト #
   INT a, b, sum;
 
+  print (("Hello, World!", new line));
+
   a := 10;
   b := 20;
   sum := a + b;
