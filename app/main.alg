@@ -4,6 +4,7 @@ BEGIN
 
   print (("Hello, World!", new line));
 
+  # 変数 #
   a := 10;
   b := 20;
   sum := a + b;
